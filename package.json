@@ -1,0 +1,27 @@
+{
+  "name": "read-me-generator",
+  "version": "1.0.0",
+  "description": "Small program that will create a formatted readme file for repos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luisfeliz3/read-me-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "format"
+  ],
+  "author": "Luis Feliz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luisfeliz3/read-me-generator/issues"
+  },
+  "homepage": "https://github.com/Luisfeliz3/read-me-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
