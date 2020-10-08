@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const filename = "README.md";
+const generateReadme = require("./generateReadMe")
 
 
 const writeToFile = data =>{
@@ -24,7 +25,7 @@ const appendToFile = data =>{
 }
 
 
-
+function main(){
 inquirer.prompt([
   {
     type: "input",
@@ -37,21 +38,17 @@ inquirer.prompt([
     message: "What is the description of your project ?"
   },
   {
-    type: "confirm",
-    name: "yes",
-    message: "Would you like to create a table of contents ?"
+    type: "input",
+    name: "installation",
+    message: "What is the installation process for the application ?"
   },
   {
     type: "input",
-    name: "answer",
-    message: "What are the installation process for the application ?"
-  },
-  {
-    type: "input",
-    name: "answer",
+    name: "usage",
     message: "What is the usage of this application ?"
   },
   {
+  type: "list",
   name: "license",
   message: "Chose the preferred license for this project: ",
   choices: [
@@ -66,26 +63,40 @@ inquirer.prompt([
    },
    {
     type: "input",
-    name: "contributing",
+    name: "contributors",
     message: "Who are the contributors of this projects?"
+   },
+   {
+    type: "input",
+    name: "test",
+    message: "Command to test the Application ?"
+   },
+   {
+    type: "input",
+    name: "github",
+    message: "Enter your git hub name"
+   },
+   {
+    type: "input",
+    name: "email",
+    message: "Enter your email address"
+   },
+   {
+    type: "input",
+    name: "questions",
+    message: "Report issues here :"
    }
-]).then(function(data) {
-  // let formattedTitle = "# " + data.projectName;
-  // fs.writeFile(filename, formattedTitle, function(err) {
+]).then(  answers =>{
+console.log({...answers});
+writeToFile(generateReadme({...answers}));
 
-  //   if (err) {
-  //     return console.log(err);
-  //   }
-  //   console.log("Title Added to Read me!");
 
-let projectName = "# " + data.projectName;
-writeToFile(projectName)
-let projectDescription = "# " + data.projectDescription;
-appendToFile(projectDescription)
-    
-  });
 
-  
+});
+
+}
+
+main();
 
   // // var filename = data.name.toLowerCase().split(' ').join('') + ".json";
   // var filename = data.name.toLowerCase().split(' ').join('') + ".json";
@@ -100,4 +111,5 @@ appendToFile(projectDescription)
   //   console.log(data[1]);
   //   // console.log(data.name);
   // });
+ 
  
