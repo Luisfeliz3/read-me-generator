@@ -1,8 +1,9 @@
-![README](./giphy.gif)
+
 <h1 align="center">Read Me Generator</h1>
   
 ## Description
  A CLI that will generate a README.MD for your projects.
+ ![README](./giphy.gif)
 ## Table of Contents
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
