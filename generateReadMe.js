@@ -24,13 +24,13 @@ This application is covered by the ${answers.license} license.
 ## Contributing
  ${answers.contributors}
 ## Tests
-✏️ ${answers.test}
+${answers.test}
 ## Questions
  ${answers.questions}<br />
 <br />
  GitHub: [${answers.github}](https://github.com/${answers.github})<br />
 <br />
-✉️ Email me with any questions: ${answers.email}<br /><br />
+ Email me with any questions: ${answers.email}<br /><br />
 
     `;
   }

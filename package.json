@@ -4,8 +4,7 @@
   "description": "Small program that will create a formatted readme file for repos.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "readme": "echo \"Getting your Personalized Read Me\" open . ./new/README.md"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
