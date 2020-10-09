@@ -1,8 +1,8 @@
 
-<h1 align="center">Teleporting App</h1>
+<h1 align="center"></h1>
   
 ## Description
-An app that teleports you to a nother dimesion
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -12,22 +12,22 @@ An app that teleports you to a nother dimesion
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
- npm i -d 
+ 
 ## Usage
- to Teleport 
+ 
 ## License
-![badge](https://img.shields.io/badge/license-Open-brightgreen)
+![badge](https://img.shields.io/badge/license-Apache-brightgreen)
 <br/>
-This application is covered by the Open license. 
+This application is covered by the Apache license. 
 ## Contributing
- Lefty3\
+ 
 ## Tests
-npm test
+
 ## Questions
- lefty3@gmail.com<br />
+ <br />
 <br />
- GitHub: [lefty3](https://github.com/lefty3)<br />
+ GitHub: [](https://github.com/)<br />
 <br />
- Email me with any questions: lefty3@gmail.com<br /><br />
+ Email me with any questions: <br /><br />
 
     

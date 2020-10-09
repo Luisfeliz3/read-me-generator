@@ -3,7 +3,7 @@
   
 ## Description
  A CLI that will generate a README.MD for your projects.
- ![README](./giphy.gif)
+ ![README](./img/giphy.gif)
 ## Table of Contents
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
@@ -33,4 +33,5 @@ This application is covered by the Open license.
 <br />
  Email me with any questions: luisfeliz@gmail.com<br /><br />
 
-  
+
+![ScreenShot](./img/ss_1.png)
