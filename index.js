@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
-const filename = "README.md";
+const filename = "./new/README.md";
 const generateReadme = require("./generateReadMe")
 
 
@@ -13,19 +13,8 @@ const writeToFile = data =>{
   });
 }
 
-const appendToFile = data =>{
-  fs.appendFile(filename, data + '\n', function(err) {
-    if (err) {
-      console.log(err);
-    }
-    else {
-      console.log("Commit logged!");
-    }
-  });
-}
 
-
-function main(){
+function start(){
 inquirer.prompt([
   {
     type: "input",
@@ -96,20 +85,5 @@ writeToFile(generateReadme({...answers}));
 
 }
 
-main();
+start();
 
-  // // var filename = data.name.toLowerCase().split(' ').join('') + ".json";
-  // var filename = data.name.toLowerCase().split(' ').join('') + ".json";
-  
-  
-  // fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
-    
-  //   if (err) {
-  //     return console.log(err);
-  //   }
-  //   console.log("Success!");
-  //   console.log(data[1]);
-  //   // console.log(data.name);
-  // });
- 
- 

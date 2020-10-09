@@ -1,9 +1,8 @@
 
-<h1 align="center">code 👋</h1>
+<h1 align="center">Read Me Generator</h1>
   
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
 ## Description
-🔍 luis
+🔍 A CLI that will generate a README.MD for your projects.
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -13,22 +12,22 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
- for noe
+ Clone Repo, Run Command `npm i`, Then node index.js
 ## Usage
- lokijuh
+ This application will generate a read me file for projects.
 ## License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
-<br />
-This application is covered by the Apache license. 
+![badge](https://img.shields.io/badge/license-Open-brightgreen)
+<br/>
+This application is covered by the Open license. 
 ## Contributing
- akhjf
+ Luis Feliz 
 ## Tests
-✏️ ojfaej
+✏️ n/a
 ## Questions
- aef<br />
+ luisfeliz@gmail.com<br />
 <br />
-:octocat: Find me on GitHub: [aef](https://github.com/undefined)<br />
+ GitHub: [Luisfeliz3](https://github.com/Luisfeliz3)<br />
 <br />
-✉️ Email me with any questions: aef<br /><br />
+✉️ Email me with any questions: luisfeliz@gmail.com<br /><br />
 
     

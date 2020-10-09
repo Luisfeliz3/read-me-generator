@@ -4,7 +4,7 @@ function generateReadme({...answers}) {
 <h1 align="center">${answers.projectName}</h1>
   
 ## Description
-🔍 ${answers.projectDescription}
+${answers.projectDescription}
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
