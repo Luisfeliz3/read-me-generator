@@ -18,6 +18,7 @@
  This application will generate a read me file for projects.
 ## License
 ![badge](https://img.shields.io/badge/license-Open-brightgreen)
+  ![README](./giphy.gif)
 <br/>
 This application is covered by the Open license. 
 ## Contributing
@@ -31,4 +32,4 @@ This application is covered by the Open license.
 <br />
  Email me with any questions: luisfeliz@gmail.com<br /><br />
 
-    ![README](./giphy.gif)
+  
