@@ -27,8 +27,8 @@ This application is covered by the Open license.
 ## Questions
  luisfeliz@gmail.com<br />
 <br />
- GitHub: [Luisfeliz3](https://github.com/Luisfeliz3)<br />
+ GitHub: ![Luisfeliz3](https://github.com/Luisfeliz3)<br />
 <br />
  Email me with any questions: luisfeliz@gmail.com<br /><br />
 
-    [Luisfeliz3](https://media.giphy.com/media/JPVfrmOsLaNTyZnDk4/giphy.gif)
+    ![Luisfeliz3](https://media.giphy.com/media/JPVfrmOsLaNTyZnDk4/giphy.gif)
