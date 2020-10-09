@@ -2,7 +2,7 @@
 <h1 align="center">Read Me Generator</h1>
   
 ## Description
-🔍 A CLI that will generate a README.MD for your projects.
+A CLI that will generate a README.MD for your projects.
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -22,12 +22,12 @@ This application is covered by the Open license.
 ## Contributing
  Luis Feliz 
 ## Tests
-✏️ n/a
+n/a
 ## Questions
  luisfeliz@gmail.com<br />
 <br />
  GitHub: [Luisfeliz3](https://github.com/Luisfeliz3)<br />
 <br />
-✉️ Email me with any questions: luisfeliz@gmail.com<br /><br />
+Email me with any questions: luisfeliz@gmail.com<br /><br />
 
     
